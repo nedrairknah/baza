@@ -1,0 +1,127 @@
+.offer {
+  background-image: url("../img/section-back.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  align-items: center;
+  padding-bottom: 42px;
+}
+
+.offer__header {
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 116.5%;
+  color: #FFFFFF;
+  font-weight: bold;
+  width: 173px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 38px;
+}
+
+.offer__link {
+  padding-top: 37px;
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+}
+
+.offer__wrap {
+  display: block;
+  // justify-content: space-between;
+  // width: 135px;
+  // margin: 0 auto;
+  // padding-top: 14px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.offer__button {
+  border: 0;
+  background-color: #ffffff;
+  width: 53px;
+  height: 53px;
+  background-image: url("../img/icon-arrow-button.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-left: 13px;
+  margin-top: 14px;
+}
+
+.offer__button--forward {
+  transform: rotate(180deg);
+}
+
+.offer__discription {
+  background: #EDEDED;
+  border: 1px dashed #7FA956;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 15px;
+}
+
+.offer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.offer__list:first-child {
+  padding-top: 7px;
+}
+
+.offer__item {
+  font-size: 13px;
+  line-height: 116.5%;
+  border-bottom: 1px dashed #C3C79E;
+  padding-top: 16px;
+  padding-bottom: 15px;
+  color: #444542;
+  padding-left: 57px;
+  margin-left: 11%;
+  margin-right: 11%;
+  position: relative;
+}
+
+
+.offer__item::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  left: 0;
+  background-repeat: no-repeat;
+}
+
+.offer__item--bed::before {
+  background-image: url("../img/bed.svg");
+}
+
+.offer__item--bathroom::before {
+  background-image: url("../img/bathroom.svg");
+}
+
+.offer__item--guestroom::before {
+  background-image: url("../img/living-room.svg");
+}
+
+.offer__item--kitchen::before {
+  background-image: url("../img/kitchen.svg");
+}
+
+.offer__expand {
+  display: block;
+  border: 0;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #82884C;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 116.5%;
+  margin: 0 auto;
+  padding: 18px 0;
+}

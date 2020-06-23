@@ -1,0 +1,86 @@
+.order__article {
+  background: #FFFFFF;
+  border-radius: 20px;
+  border: 2px dashed #7FA956;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 70px rgba(69, 78, 7, 0.06);
+  height: auto;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.order {
+  column-count: 2;
+}
+
+.order__quote {
+  font-size: 13px;
+  line-height: 107%;
+  color: #444542;
+  margin: 0;
+  padding-top: 45px;
+  padding-left: 17px;
+  display: block;
+  position: relative;
+}
+
+.order__quote::before {
+  position: absolute;
+  content: "";
+  background-image: url("../img/ruble.svg");
+  width: 25px;
+  height: 25px;
+  top: 15px;
+  background-repeat: no-repeat;
+}
+
+.order__price {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 17px;
+  padding-top: 1px;
+}
+
+.order__quote--rest {
+  padding-left: 0;
+}
+
+.order__price--rest {
+  padding-left: 0;
+}
+
+.order__more-info {
+  font-size: 13px;
+  line-height: 116.5%;
+  text-transform: uppercase;
+  color: #444542;
+  border: 2px solid #00AEEF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 22px 82px;
+  margin: 0 auto;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 30px;
+}
+
+.order__button {
+  display: flex;
+  font-size: 13px;
+  line-height: 116.5%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #A3E165 0%, #679A35 100%);
+  box-shadow: 0px 10px 20px rgba(125, 131, 72, 0.4);
+  border-radius: 100px;
+  margin-left: 11%;
+  margin-right: 11%;
+  width: 78%;
+  text-align: center;
+  padding: 22px 66px;
+  margin-top: 14px;
+  margin-bottom: 30px;
+}

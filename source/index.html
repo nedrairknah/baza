@@ -35,66 +35,87 @@
         все прелести природы выборгского района
       </h2>
       <ul class="main__list">
-        <li class="main__item main__item--">
-          <h3>Близость к границе</h3>
-          <p>Мы находимся близко к границе с Финляндией. При дальних поездках, вы можете остановиться у нас, чтобы рано утром или после долгой поездки отдохнуть и восполнить силы.</p>
+        <li class="main__item main__item--border">
+          <h3 class="main__subheader">Близость к границе</h3>
+          <p class="main__text">Мы находимся близко к границе с Финляндией. При дальних поездках, вы можете остановиться у нас, чтобы рано утром или после долгой поездки отдохнуть и восполнить силы.</p>
         </li>
-        <li class="main__item main__item--">
-          <h3>Охотничий рай</h3>
-          <p>Природные леса, в которых обитает много дичи и животных. Идеально подходит для охотников с лицензией. Организуем выезд на дичь.</p>
-          <a>Отдых для охотников</a>
+        <li class="main__item main__item--hunting">
+          <h3 class="main__subheader main__subheader--hunting">Охотничий рай</h3>
+          <p class="main__text main__text--hunting">Природные леса, в которых обитает много дичи и животных. Идеально подходит для охотников с лицензией. Организуем выезд на дичь.</p>
+          <a class="main__link">Отдых для охотников</a>
         </li>
-        <li class="main__item main__item--">
-          <h3>Река с выходом в залив</h3>
-          <p>Для любителей рыбалки и просто отдыха у воды. Наша база отдыха находиться на около реки Великой, что делает отдых у нас еще приятнее</p>
-          <a>Отдых для рыбаков</a>
+        <li class="main__item main__item--river">
+          <h3 class="main__subheader main__subheader--river">Река с выходом в залив</h3>
+          <p class="main__text main__text--river">Для любителей рыбалки и просто отдыха у воды. Наша база отдыха находиться на около реки Великой, что делает отдых у нас еще приятнее</p>
+          <a class="main__link main__link--river">Отдых для рыбаков</a>
         </li>
-        <li class="main__item main__item--">
-          <h3>Нетронутые леса</h3>
-          <p>Пешие прогулки, сбор грибов и ягод, отдых от суеты или активный отдых в любое время года. Все это вы можете получить на нашей базе.</p>
-          <a>Природа</a>
+        <li class="main__item main__item--forest">
+          <h3 class="main__subheader">Нетронутые леса</h3>
+          <p class="main__text main__text--forest">Пешие прогулки, сбор грибов и ягод, отдых от суеты или активный отдых в любое время года. Все это вы можете получить на нашей базе.</p>
+          <a class="main__link main__link--forest">Природа</a>
         </li>
       </ul>
 
-      <h2>варианты размещения</h2>
-      <div class="options__slider">
-        <button class="options__button options__button--back"
-        aria-label="" type="button"></button>
-        <button class="options__button options__button--forward"
-        aria-label="" type="button"></button>
-      </div>
-      <ul class="options__list">
-        <li class="options__item">
-          2 спальни
-        </li>
-        <li class="options__item">
-          1 санузел
-        </li>
-        <li class="options__item">
-          Гостинная с диваном
-        </li>
-        <li class="options__item">
-          Кухня
-        </li>
-      </ul>
-      <button class="options__expand" type="button">Развернуть</button>
-      <section>
-        <blockquote>Цена в будние дни: 3 000 руб</blockquote>
-        <p>3 000 руб</p>
-        <blockquote>Цена в выходные дни: 3 000 руб</blockquote>
-        <p>4 000 руб</p>
-        <a>Подробнее</a>
-        <a>Забронировать</a>
+      <section class="main__section offer">
+        <h2 class="offer__header">варианты размещения</h2>
+        <a class="offer__link">
+          <picture>
+            <!-- <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg"> -->
+            <!-- <source media="(min-width: 768px)" srcset="img/logo-tablet.svg"> -->
+            <img class="" src="img/apartment.jpg"
+            width="319" height="189" alt="Апартаменты">
+          </picture>
+        </a>
+
+        <div class="offer__wrap">
+          <button class="offer__button offer__button--back"
+          aria-label="Назад" type="button"></button>
+          <button class="offer__button offer__button--forward"
+          aria-label="Вперёд" type="button"></button>
+        </div>
+
+        <div class="offer__discription">
+          <ul class="offer__list">
+            <li class="offer__item offer__item--bed">
+              2 спальни
+            </li>
+            <li class="offer__item offer__item--bathroom">
+              1 санузел
+            </li>
+            <li class="offer__item offer__item--guestroom">
+              Гостинная с диваном
+            </li>
+            <li class="offer__item offer__item--kitchen">
+              Кухня
+            </li>
+          </ul>
+          <button class="offer__expand" type="button">Развернуть</button>
+        </div>
+
+        <div class="main__order order__article">
+          <div class="order">
+            <blockquote class="order__quote order__quote--work">Цена в будние дни:</blockquote>
+            <p class="order__price order__price--work">3 000 руб</p>
+            <blockquote class="order__quote order__quote--rest">Цена в выходные дни:</blockquote>
+            <p class="order__price order__price--rest">4 000 руб</p>
+          </div>
+          <a class="order__more-info">Подробнее</a>
+          <button class="order__button" type="button">Забронировать</button>
+        </div>
+
       </section>
 
-      <h2>Всем нашим постояльцам мы предлагаем</h2>
-      <p>Русскую баню</p>
-      <div class="offer__slider">
-        <button class="offer__button offer__button--back"
-        aria-label="" type="button"></button>
-        <button class="offer__button offer__button--forward"
-        aria-label="" type="button"></button>
-      </div>
+      <article>
+        <h2 class="header__type-two">Всем нашим постояльцам мы предлагаем</h2>
+        <p>Русскую баню</p>
+        <div class="offer__slider">
+          <button class="offer__button offer__button--back"
+          aria-label="" type="button"></button>
+          <button class="offer__button offer__button--forward"
+          aria-label="" type="button"></button>
+        </div>
+      </article>
+
       <h2>Также предлагаем продукцию собственной агрофермы</h2>
       <div class="offer__slider">
         <button class="offer__button offer__button--back"

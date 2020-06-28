@@ -1,0 +1,65 @@
+.farm-products__header{
+  text-align: center;
+  margin-top: 79px;
+  text-transform: uppercase;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.farm-products__picture {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 34px;
+  z-index: 5;
+  position: relative;
+}
+
+.farm-products__more-details {
+  display: block;
+  margin-top: -221px;
+  margin-left: 181px;
+  // margin-bottom: 197px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  border-bottom: 1px solid #00AEEF;
+  z-index: 10;
+  width: 91px;
+  position: relative;
+  height: 23px;
+}
+
+.farm-products__more-details::after {
+  position: absolute;
+  content: "";
+  background-image: url("../img/icon-arrow.svg");
+  width: 12px;
+  height: 10px;
+  top: 13px;
+  right: -31px;
+}
+
+.farm-products__wrap {
+  display: flex;
+  justify-content: center;
+  width: 137px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-top: 228px;
+}
+
+.farm-products__button {
+  border: 0;
+    background-color: #7D8348;
+    width: 53px;
+    height: 53px;
+    background-image: url("../img/icon-arrow-white.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.farm-products__button--forward {
+  transform: rotate(180deg);
+}

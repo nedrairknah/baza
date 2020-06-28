@@ -6,6 +6,10 @@
   padding-bottom: 42px;
 }
 
+.offer--white {
+  background-image: none;
+}
+
 .offer__header {
   margin: 0 auto;
   font-size: 24px;
@@ -18,6 +22,15 @@
   padding-top: 38px;
 }
 
+.offer__header--apartments {
+  margin: 0 auto;
+  width: auto;
+}
+
+.offer__header--black {
+  color: #444542;
+}
+
 .offer__link {
   padding-top: 37px;
   width: 320px;
@@ -26,13 +39,15 @@
 }
 
 .offer__wrap {
-  display: block;
-  // justify-content: space-between;
+  display: flex;
+  justify-content: center;
   // width: 135px;
   // margin: 0 auto;
   // padding-top: 14px;
-  width: 150px;
+  width: 137px;
   margin: 0 auto;
+  margin-top: 14px;
+  margin-bottom: 18px;
 }
 
 .offer__button {
@@ -45,8 +60,13 @@
   background-position: center;
   border-radius: 50%;
   margin: 0 auto;
-  margin-left: 13px;
-  margin-top: 14px;
+  // margin-left: 13px;
+  // margin-top: 14px;
+}
+
+.offer__button--inversion {
+  background-color: #7D8348;
+  background-image: url("../img/icon-arrow-white.svg");
 }
 
 .offer__button--forward {

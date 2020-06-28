@@ -1,0 +1,156 @@
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #80864A;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 116.5%;
+  /* or 16px */
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 42px;
+}
+
+.footer__header {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 116.5%;
+  padding-top: 40px;
+}
+
+.footer__header-about,
+.footer__header-apartments,
+.footer__header-gallery,
+.footer__header-resto {
+  padding-top: 33px;
+}
+
+.footer__list,
+.footer__about-list,
+.footer__apartments-list,
+.footer__gallery-list,
+.footer__resto-list {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__item,
+.footer__about-item,
+.footer__gallery-item,
+.footer__resto-item {
+  list-style: none;
+  padding-top: 16px;
+}
+
+.footer__apartments-item {
+  padding-top: 12px;
+}
+
+.footer__link-price {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 116.5%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 36px;
+}
+
+.footer__link-contacts {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 116.5%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 22px;
+}
+
+.footer__button {
+  font-size: 13px;
+  line-height: 116.5%;
+  /* or 15px */
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #FFFFFF 0%, #DFEB94 100%);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  display: flex;
+  flex-grow: 1;
+  margin: 0 auto;
+  padding: 24px 50px;
+  margin-top: 43px;
+}
+
+.footer__contacts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 6%;
+  background: #FFFFFF;
+  border: 3px dashed #7FA956;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 39px;
+  margin-top: 36px;
+  margin-bottom: 51px;
+}
+
+.footer__contacts-list:last-child {
+  padding-bottom: 30px;
+}
+
+.footer__contacts-item {
+  color: #444542;
+  margin: 0 20%;
+  padding: 4px 0;
+  font-size: 18px;
+  line-height: 233%;
+}
+
+.footer__contacts-item--tel {
+  padding-top: 19px;
+}
+
+.footer__contacts-item--mail {
+  padding-bottom: 19px;
+}
+
+.footer__info {
+  background: #212B12;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer__brand {
+  font-size: 14px;
+  line-height: 70%;
+  /* or 10px */
+  text-align: center;
+  color: #FFFFFF;
+  padding: 0 26%;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.footer__text {
+  margin: 0;
+  padding: 0 19%;
+  padding-top: 12px;
+  line-height: 70%;
+  font-size: 14px;
+  padding-bottom: 121px;
+  position: relative;
+}
+
+.footer__info::after {
+  position: absolute;
+  content: "";
+  background-image: url("../img/GM_logo.png");
+  width: 181px;
+  height: 32px;
+  background-repeat: no-repeat;
+  bottom: 45px;
+  left: 30%;
+  // right: 0;
+}

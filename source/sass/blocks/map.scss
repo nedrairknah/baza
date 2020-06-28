@@ -1,0 +1,53 @@
+.map__wrap {
+width: 360px;
+color: #444542;
+}
+
+.map__picture {
+  display: flex;
+  margin: 0 auto;
+  width: 320px;
+  position: relative;
+  margin-top: 62px;
+  z-index: 5;
+}
+
+.map__picture::before {
+  position: absolute;
+  content: "";
+  background-image: url("../img/icon-tick.png");
+  width: 40px;
+  height: 42px;
+  background-repeat: no-repeat;
+  left: 137px;
+  top: 112px;
+}
+
+.map__wrapper {
+  position: relative;
+  background: #FFFFFF;
+  border: 2px dashed #7FA956;
+  box-sizing: border-box;
+  box-shadow: 0px 20px 70px rgba(69, 78, 7, 0.06);
+  border-radius: 20px;
+  margin: 0 8%;
+  margin-top: -60px;
+  z-index: 10;
+}
+
+.map__adress {
+  font-size: 24px;
+  line-height: 116.5%;
+  /* or 28px */
+  text-align: center;
+  margin-top: 49px;
+}
+
+.map__info {
+  font-size: 18px;
+  line-height: 116.5%;
+  /* or 21px */
+  text-align: center;
+  margin: 0 4%;
+  margin-bottom: 57px;
+}

@@ -6,6 +6,10 @@
   background-repeat: no-repeat;
 }
 
+.resto--sauna-page {
+  background-image: none;
+}
+
 .resto--resto-page {
   background-image: none;
 }
@@ -21,6 +25,12 @@
   padding-top: 58px;
   margin-left: 5%;
   margin-right: 5%;
+}
+
+.resto__header--sauna-page {
+  color: #444542;
+  font-size: 18px;
+  padding-top: 36px;
 }
 
 .resto__header--inversion {

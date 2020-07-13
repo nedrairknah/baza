@@ -58,42 +58,132 @@
         </nav>
     </header>
 
-
     <main class="main">
 
+      <section class="saunaa__section">
+        <h2 class="saunaa__main-header">Русская баня базы отдыха VILLAIOKI</h2>
+        <img class="saunaa__img" src="img/saunaa.jpg" width="315" height="345">
+          <div class="farm-products__wrap saunaa__button-wrap">
+            <button class="farm-products__button farm-products__button--back"
+            aria-label="" type="button"></button>
+            <button class="farm-products__button farm-products__button--forward"
+            aria-label="" type="button"></button>
+          </div>
+        <h3 class="saunaa__subheader">Описание</h3>
+        <p class="saunaa__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet.</p>
+        <div class="price__wrap saunaa__price-wrap">
+          <h2 class="price__header price__header--inversion saunaa__price-header">Стоимость Русской бани</h2>
+          <div class="price__wrapper saunaa__price-wrapper">
+            <table class="price__table">
+              <tr>
+                <td class="price__simple--cell saunaa__simple--cell">name</td>
+                <td class="price__simple--cell saunaa__simple--cell">Birth date</td>
+                <td class="price__simple--cell saunaa__simple--cell">Actions</td>
+              </tr>
+              <tr>
+                <td class="price__simple--cell saunaa__simple--cell">Ada Lovelace</td>
+                <td class="price__simple--cell saunaa__simple--cell">Ada Lovelace</td>
+                <td class="price__simple--cell saunaa__simple--cell">Edit</td>
+              </tr>
+              <tr>
+                <td class="price__simple--cell saunaa__simple--cell">Grace Hopper</td>
+                <td class="price__simple--cell saunaa__simple--cell">Grace Hopper</td>
+                <td class="price__simple--cell saunaa__simple--cell">Edit</td>
+              </tr>
+              <tr>
+                <td class="price__simple--cell saunaa__simple--cell">Margaret Hamilton</td>
+                <td class="price__simple--cell saunaa__simple--cell">Margaret Hamilton</td>
+                <td class="price__simple--cell saunaa__simple--cell">Edit</td>
+              </tr>
+              <tr>
+                <td class="price__simple--cell saunaa__simple--cell price__simple--last">Joan Clarke</td>
+                <td class="price__simple--cell saunaa__simple--cell price__simple--last">Joan Clarke</td>
+                <td class="price__simple--cell saunaa__simple--cell price__simple--last">Edit</td>
+              </tr>
+            </table>
+          </div>
 
-      <div class="resto resto--resto-page">
-        <h2 class="resto__header resto__header--inversion">На первом этаже базы отдыха расположен ресторан и банкетный зал с русской печью и верандой</h2>
+        </div>
+
+      </section>
+
+      <section class="main__section offer">
+        <h2 class="offer__header">варианты размещения</h2>
+        <a class="offer__link">
+          <picture>
+            <!-- <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg"> -->
+            <!-- <source media="(min-width: 768px)" srcset="img/logo-tablet.svg"> -->
+            <img class="" src="img/apartment.jpg"
+            width="319" height="189" alt="Апартаменты">
+          </picture>
+        </a>
+
+        <div class="offer__wrap">
+          <button class="offer__button offer__button--back"
+          aria-label="Назад" type="button"></button>
+          <button class="offer__button offer__button--forward"
+          aria-label="Вперёд" type="button"></button>
+        </div>
+
+        <div class="offer__discription">
+          <ul class="offer__list">
+            <li class="offer__item offer__item--bed">
+              2 спальни
+            </li>
+            <li class="offer__item offer__item--bathroom">
+              1 санузел
+            </li>
+            <li class="offer__item offer__item--guestroom">
+              Гостинная с диваном
+            </li>
+            <li class="offer__item offer__item--kitchen">
+              Кухня
+            </li>
+          </ul>
+          <button class="offer__expand" type="button">Развернуть</button>
+        </div>
+
+        <div class="main__order order__article">
+          <div class="order">
+            <blockquote class="order__quote order__quote--work">Цена в будние дни:</blockquote>
+            <p class="order__price order__price--work">3 000 руб</p>
+            <blockquote class="order__quote order__quote--rest">Цена в выходные дни:</blockquote>
+            <p class="order__price order__price--rest">4 000 руб</p>
+          </div>
+          <a class="order__more-info">Подробнее</a>
+          <button class="order__button" type="button">Забронировать</button>
+        </div>
+
+      </section>
+
+
+      <div class="plan saunaa__plan">
+        <h2 class="plan__header">План базы</h2>
+        <picture class="plan__picture">
+          <!-- <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg"> -->
+          <!-- <source media="(min-width: 768px)" srcset="img/logo-tablet.svg"> -->
+          <img src="img/plan.jpg"
+          width="1092" height="614" alt="План базы">
+        </picture>
+      </div>
+
+
+
+
+      <div class="resto resto--sauna-page">
+        <h2 class="resto__header resto__header--sauna-page">На первом этаже базы отдыха расположен ресторан и банкетный зал с русской печью и верандой</h2>
         <picture class="resto__picture">
           <!-- <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg"> -->
           <!-- <source media="(min-width: 768px)" srcset="img/logo-tablet.svg"> -->
           <img src="img/restaurant.jpg"
           width="314" height="179" alt="Ресторан">
         </picture>
-        <div class="for-clients__button-wrap offer__slider">
-          <button class="offer__button offer__button--inversion offer__button--back"
-          aria-label="" type="button"></button>
-          <button class="offer__button offer__button--inversion offer__button--forward"
-          aria-label="" type="button"></button>
-        </div>
         <div class="resto__wrap">
           <p class="resto__text">Большая часть продукции выращена на собственной агроферме, что делает наши блюда полезными и вкусными</p>
           <a href="#" class="resto__menu">Меню ресторана</a>
           <a href="#" class="resto__hall">Банкетный зал</a>
         </div>
       </div>
-
-      <div class="gallery">
-        <h2 class="gallery__header">Lorem ipsum dolor sit amet</h2>
-        <picture class="gallery__picture">
-          <!-- <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg"> -->
-          <!-- <source media="(min-width: 768px)" srcset="img/logo-tablet.svg"> -->
-          <img class="gallery__img" src="img/house.jpg"
-          width="329" height="279" alt="Дом">
-        </picture>
-        <p class="gallery__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet.</p>
-      </div>
-
 
       <div class="form__wrap">
         <form class="form">

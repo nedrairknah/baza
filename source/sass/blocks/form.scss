@@ -29,8 +29,11 @@
   font-size: 18px;
   line-height: 116.5%;
   text-align: center;
-  margin: 0 14%;
+  margin: 0 5%;
+  padding: 0 9%;
   margin-top:23px;
+  border-bottom: 3px dashed #7FA956;
+  padding-bottom: 26px;
 }
 
 .form__input {
@@ -40,7 +43,7 @@
   border: 2px solid #7FA956;
   box-sizing: border-box;
   border-radius: 100px;
-  margin-top: 68px;
+  margin-top: 39px;
   padding: 19px 30px;
   font-size: 18px;
   line-height: 116.5%;
@@ -76,4 +79,5 @@
   margin-top: 46px;
   padding: 23px 66px;
   margin-bottom: 54px;
+  border: 0;
 }

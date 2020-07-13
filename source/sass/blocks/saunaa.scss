@@ -1,0 +1,70 @@
+.saunaa__section {
+  background-image: url("../img/saunaa-back.png");
+}
+
+.saunaa__main-header {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 116.5%;
+  /* or 21px */
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 5%;
+  margin-top: 37px;
+}
+
+.saunaa__img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 31px;
+}
+
+.saunaa__button-wrap {
+  margin-top: 48px;
+}
+
+.saunaa__subheader {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  margin: 0 5%;
+  margin-bottom: 20px;
+  margin-top: 28px;
+}
+
+.saunaa__text {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0 5%;
+  margin-bottom: 30px;
+}
+
+.saunaa__price-header {
+  margin: 0 6%;
+  padding-left: 20%;
+  padding-right: 20%;
+  // padding
+}
+
+.saunaa__price-wrap {
+  padding-bottom: 71px;
+  margin-bottom: 0;
+}
+
+.saunaa__price-wrapper {
+  margin: 0 6%;
+  margin-top: -52px;
+}
+
+.saunaa__simple--cell {
+  padding: 27px 20px;
+}
+
+// .saunaa__price-wrap {
+//   margin-top: 30px;
+// }
+
+.saunaa__plan {
+  margin-top: -29px;
+  z-index: -5;
+}

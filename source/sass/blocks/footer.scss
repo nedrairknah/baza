@@ -45,6 +45,17 @@
   padding-top: 16px;
 }
 
+.footer__link,
+.footer__about-link,
+.footer__apartments-link,
+.footer__gallery-link,
+.footer__resto-link,
+.footer__link-price,
+.footer__link-contacts {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .footer__apartments-item {
   padding-top: 12px;
 }

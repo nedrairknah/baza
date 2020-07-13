@@ -1,0 +1,94 @@
+.info {
+  background: #FFFFFF;
+  border: 3px dashed #7FA956;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 39px;
+  margin: 0 5%;
+  margin-top: 35px;
+}
+
+.info__header {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 116.5%;
+  /* or 28px */
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 3px dashed #7FA956;
+  margin: 0 5%;
+  margin-top: 48px;
+  padding-bottom: 47px;
+}
+
+.info__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info__item {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 123.5%;
+  /* or 21px */
+  text-align: center;
+  color: #444542;
+  padding-top: 29px;
+}
+
+.info__item--actual-adress {
+  padding-top: 0;
+}
+
+.info__item--adress,
+.info__item--tel,
+.info__item--post {
+  font-weight: bold;
+}
+
+.info__item--text {
+  font-size: 18px;
+  line-height: 116.5%;
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+
+.info__item--text,
+.info__item--number {
+  border-bottom: 1px dashed #7FA956;
+  margin: 0 5%;
+}
+
+.info__item--tel {
+  padding-top: 25px;
+}
+
+.info__item--number {
+  padding-top: 1px;
+  padding-bottom: 26px;
+}
+
+.info__item--mail {
+  padding-top: 2px;
+  padding-bottom: 36px;
+}
+
+.info__section-map {
+  padding-top: 10px;
+  margin: 0 5%;
+}
+
+.info__route-header {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 116.5%;
+  margin-top: 27px;
+}
+
+.info__route-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+}

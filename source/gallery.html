@@ -58,110 +58,120 @@
       </nav>
   </header>
 
-    <main class="main main__pg">
+    <main class="main">
 
-      <h2 class="photogallery__header">Фотогаллерея базы отдыха VILLAIOKI</h2>
-      <section class="pg__section">
-        <ul class="pg__list">
-          <li class="pg__item">
-            <img class="pg__img" src="img/main-base.png" width="307" height="217" alt="Главная база">
-            <p class="pg__img-title">Главная база</p>
-            <a href="#" class="pg__link">
-              Смотреть фото
-            </a>
+      <section class="gall__section">
+        <h2 class="gall__header">Галлерея и видео базы отдыха Villaioki</h2>
+        <ul class="gall__list">
+          <li class="gall__item">
+            <picture class="gall__picture">
+              <!-- <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg"> -->
+              <!-- <source media="(min-width: 768px)" srcset="img/logo-tablet.svg"> -->
+              <img class="gall__img" src="img/photogallery.jpg"
+              width="313" height="255" alt="Фотогаллерея">
+            </picture>
+            <a href="photogallery.html" class="gall__link">Фотогаллерея</a>
           </li>
-          <li class="pg__item">
-            <img class="pg__img" src="img/river-cata.jpg" width="307" height="217" alt="Река">
-            <p class="pg__img-title">Река</p>
-            <a href="#" class="pg__link">
-              Смотреть фото
-            </a>
+          <li class="gall__item">
+            <picture class="gall__picture">
+              <!-- <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg"> -->
+              <!-- <source media="(min-width: 768px)" srcset="img/logo-tablet.svg"> -->
+              <img class="gall__img" src="img/videogallery.jpg"
+              width="313" height="255" alt="Видеогаллерея">
+            </picture>
+            <a href="videogallery.html" class="gall__link">Видеогаллерея</a>
           </li>
-          <li class="pg__item">
-            <img class="pg__img" src="img/nature.jpg" width="307" height="217" alt="Природа">
-            <p class="pg__img-title">Природа</p>
-            <a href="#" class="pg__link">
-              Смотреть фото
-            </a>
-          </li>
+
         </ul>
-        <button type="button" class="pg__more-info">Смотреть больше</button>
       </section>
 
-
-
-
-
-      <div class="form__wrap">
-        <form class="form">
-          <h2 class="form__header">Остались вопросы?</h2>
-          <p class="form__text">Напишите ваш вопрос и мы ответим вам в течение 15 минут</p>
-          <input class="form__input" type="tel" name="tel" id="tel" placeholder="Ваш номер телефона:" required>
-          <textarea class="form__textarea" name="text" id="text" placeholder="Ваш вопрос:"></textarea>
-          <button class="form__button" type="submit">отправить вопрос</button>
-        </form>
-      </div>
-
-      <div class="map__wrap">
-        <picture class="map__picture">
-          <!-- <source media="(min-width: 1150px)" srcset="img/logo-desktop.svg"> -->
-          <!-- <source media="(min-width: 768px)" srcset="img/logo-tablet.svg"> -->
-          <img class="map__img" src="img/map.jpg"
-          width="320" height="267" alt="карта">
-        </picture>
-        <div class="map__wrapper">
-          <p class="map__adress">г. Спб, Ул Лесная, д, 5</p>
-          <p class="map__info">После речки Черная - поворот налево по песчаному пляжу и 15 минут прямо.</p>
-        </div>
-      </div>
 
     </main>
 
     <footer class="footer">
       <h4 class="footer__header">Развлечения</h4>
       <ul class="footer__list">
-        <li class="footer__item footer__item--">Русская баня</li>
-        <li class="footer__item footer__item--">Рыбалка</li>
-        <li class="footer__item footer__item--">Охота</li>
-        <li class="footer__item footer__item--">Природа</li>
-        <li class="footer__item footer__item--">Экскурсии</li>
-        <li class="footer__item footer__item--">Мастер-классы</li>
-        <li class="footer__item footer__item--">Шашлыки</li>
-        <li class="footer__item footer__item--">Контактный зоопарк</li>
-        <li class="footer__item footer__item--">Ягодник</li>
-        <li class="footer__item footer__item--">Проживание с животными</li>
-        <li class="footer__item footer__item--">Детская площадка</li>
+        <li class="footer__item footer__item--">
+          <a href="sauna.html" class="footer__link">
+          Русская баня</a></li>
+        <li class="footer__item footer__item--">
+          <a href="fishing.html" class="footer__link">
+          Рыбалка</a></li>
+        <li class="footer__item footer__item--">
+          <a href="hunting.html" class="footer__link">
+          Охота</a></li>
+        <li class="footer__item footer__item--">
+          <a href="nature.html" class="footer__link">
+          Природа</a></li>
+        <li class="footer__item footer__item--">
+          <a href="#" class="footer__link">
+          Экскурсии</a></li>
+        <li class="footer__item footer__item--">
+          <a href="master-class.html" class="footer__link">
+          Мастер-классы</a></li>
+        <li class="footer__item footer__item--">
+          <a href="bbq.html" class="footer__link">
+          Шашлыки</a></li>
+        <li class="footer__item footer__item--">
+          <a href="zoo.html" class="footer__link">
+          Контактный зоопарк</a></li>
+        <li class="footer__item footer__item--">
+          <a href="berry.html" class="footer__link">
+          Ягодник</a></li>
+        <li class="footer__item footer__item--">
+          <a href="live-w-pets.html" class="footer__link">
+          Проживание с животными</a></li>
+        <li class="footer__item footer__item--">
+          <a href="playground.html" class="footer__link">
+          Детская площадка</a></li>
       </ul>
 
       <h4 class="footer__header footer__header-about">О базе</h4>
       <ul class="footer__about-list">
-        <li class="footer__about-item footer__about-item--">Новости</li>
-        <li class="footer__about-item footer__about-item--">План базы</li>
-        <li class="footer__about-item footer__about-item--">Как добраться</li>
-        <li class="footer__about-item footer__about-item--">Продукция фермы</li>
+        <li class="footer__about-item footer__about-item--">
+          <a href="news.html" class="footer__about-link">
+            Новости</a></li>
+        <li class="footer__about-item footer__about-item--">
+          <a href="plan.html" class="footer__about-link">
+            План базы</a></li>
+        <li class="footer__about-item footer__about-item--">
+          <a href="route.html" class="footer__about-link">
+            Как добраться</a></li>
+        <li class="footer__about-item footer__about-item--">
+          <a href="products.html" class="footer__about-link">
+            Продукция фермы</a></li>
       </ul>
 
       <h4 class="footer__header footer__header-apartments">Размещение</h4>
       <ul class="footer__apartments-list">
-        <li class="footer__apartments-item">Однокомнатные номера</li>
-        <li class="footer__apartments-item">Двухкомнатные номера</li>
+        <li class="footer__apartments-item">
+          <a href="apartments.html" class="footer__apartments-link">
+            Однокомнатные номера</a></li>
+        <li class="footer__apartments-item">
+          <a href="apartments.html" class="footer__apartments-link">
+            Двухкомнатные номера</a></li>
       </ul>
 
       <h4 class="footer__header footer__header-gallery">Галлерея</h4>
       <ul class="footer__gallery-list">
-        <li class="footer__gallery-item">Фотогаллерея</li>
-        <li class="footer__gallery-item">Видеогаллерея</li>
+        <li class="footer__gallery-item">
+          <a href="photogallery.html" class="footer__gallery-link">Фотогаллерея</a></li>
+        <li class="footer__gallery-item">
+          <a href="videogallery.html" class="footer__gallery-link">Видеогаллерея</a></li>
       </ul>
 
       <h4 class="footer__header footer__header-resto">Ресторан</h4>
       <ul class="footer__resto-list">
-        <li class="footer__resto-item">Меню</li>
-        <li class="footer__resto-item">На заказ</li>
-        <li class="footer__resto-item">Банкетный зал</li>
+        <li class="footer__resto-item">
+          <a href="menu.html" class="footer__resto-link">Меню</a></li>
+        <li class="footer__resto-item">
+          <a href="order.html" class="footer__resto-link">На заказ</a></li>
+        <li class="footer__resto-item">
+          <a href="hall.html" class="footer__resto-link">Банкетный зал</a></li>
       </ul>
 
-      <a class="footer__link-price">Цены</a>
-      <a class="footer__link-contacts">Контакты</a>
+      <a href="prices.html" class="footer__link-price">Цены</a>
+      <a href="contacts.html" class="footer__link-contacts">Контакты</a>
       <button class="footer__button" type="button">Бронирование онлайн</button>
 
       <ul class="footer__contacts-list">
